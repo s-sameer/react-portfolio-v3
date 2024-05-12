@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div className='pb-20 pt-36'>
+    <div className='pb-20 pt-36 h-screen'>
         <div>
             <Spotlight className='-top-40 -left-10
             md:-left-32 md:-top-20 h-[70vh]' fill='white'/>
@@ -26,7 +26,7 @@ const Hero = () => {
                     words='Transforming Your Ideas From Concept To Production'
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I&apos;m Sameer, a passionate Full-Stack developer and AI enthusiast.
+                    Hi, I&apos;m Sameer, a passionate Full-Stack Developer and AI Engineer.
                 </p>
                 <a href="#about">
                 <MagicButton title="See my work" icon={<FaLocationArrow/>} position='right'/>
