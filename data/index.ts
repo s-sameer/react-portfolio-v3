@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -61,37 +61,56 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Crypto Tracker",
+      des: "A crypto price and news tracking application created using React and Redux",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      iconLists: [""],
+      link: "https://kryptoverse.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "WebCommerce",
+      des: "An e-commerce application with payment functionality built using React, Sanity and Stripe",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      iconLists: [""],
+      link: "https://ecom-app-1.vercel.app/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Lyriks",
+      des: "A music streaming and charts application developed using React and Tailwind CSS",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      iconLists: [""],
+      link: "https://lyriks-phi.vercel.app/",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Keeper",
+      des: "A full stack note taking application built using React, Node.js, and Firebase",
       img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      iconLists: [""],
+      link: "https://velvety-duckanoo-8dc08a.netlify.app/",
+    },
+    {
+      id: 5,
+      title: "Boardspace",
+      des: "An admin dashboard panel created using React and JavaScript",
+      img: "/p4.svg",
+      iconLists: [""],
+      link: "https://lucent-yeot-4eb47e.netlify.app/",
     },
   ];
+
+  const todo = [
+    {
+      id: 1,
+      title: "Link Click",
+      desc: "A social media application for sharing images and videos, developed using React, Node.js, Express and MongoDB.",
+      img: "",
+      iconLists: [],
+      link: ""
+    }
+  ]
   
   export const companies = [
     {
