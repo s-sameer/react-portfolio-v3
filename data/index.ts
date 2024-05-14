@@ -63,41 +63,46 @@ export const navItems = [
       id: 1,
       title: "Crypto Tracker",
       des: "A crypto price and news tracking application created using React and Redux",
-      img: "/p1.svg",
-      iconLists: [""],
+      img: "/krypto_thumbnail.PNG",
+      iconLists: ["/react.svg", "/redux.svg", "/tail.svg"],
       link: "https://kryptoverse.vercel.app/",
+      git: "https://github.com/s-sameer/krypto"
     },
     {
       id: 2,
       title: "WebCommerce",
       des: "An e-commerce application with payment functionality built using React, Sanity and Stripe",
-      img: "/p2.svg",
-      iconLists: [""],
+      img: "/ecom_thumb.PNG",
+      iconLists: ["/react.svg", "/ts.svg", "/stripe.svg"],
       link: "https://ecom-app-1.vercel.app/",
+      git: "https://github.com/s-sameer/ecom-app-1"
     },
     {
       id: 3,
       title: "Lyriks",
       des: "A music streaming and charts application developed using React and Tailwind CSS",
-      img: "/p3.svg",
-      iconLists: [""],
+      img: "/lyriks_thumbnail.PNG",
+      iconLists: ["/react.svg", "redux.svg", "ts.svg", "/tail.svg"],
       link: "https://lyriks-phi.vercel.app/",
+      git: "https://github.com/s-sameer/lyriks"
     },
     {
       id: 4,
       title: "Keeper",
       des: "A full stack note taking application built using React, Node.js, and Firebase",
-      img: "/p4.svg",
-      iconLists: [""],
+      img: "/keeper.PNG",
+      iconLists: ["/react.svg", "/node.svg", "/firebase.svg"],
       link: "https://velvety-duckanoo-8dc08a.netlify.app/",
+      git: "https://github.com/s-sameer/keeper-app"
     },
     {
       id: 5,
       title: "Boardspace",
       des: "An admin dashboard panel created using React and JavaScript",
-      img: "/p4.svg",
-      iconLists: [""],
+      img: "/admin-db-v1.PNG",
+      iconLists: ["/react.svg", "/tail.svg"],
       link: "https://lucent-yeot-4eb47e.netlify.app/",
+      git: "https://github.com/s-sameer/react-dashboard"
     },
   ];
 
@@ -108,7 +113,8 @@ export const navItems = [
       desc: "A social media application for sharing images and videos, developed using React, Node.js, Express and MongoDB.",
       img: "",
       iconLists: [],
-      link: ""
+      link: "",
+      git: ""
     }
   ]
   
