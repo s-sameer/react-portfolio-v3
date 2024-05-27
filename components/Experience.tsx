@@ -34,7 +34,7 @@ const Experience = () => {
             <a href="https://drive.google.com/uc?export=download&id=16d1L187ZgMzFEe3TwRPcAPmBwRlh-s6R">
                 <MagicButton 
                     title='Resume'
-                    otherClasses='md:w-40 '
+                    otherClasses='md:w-36'
                 />
             </a>
         </div>
