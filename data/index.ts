@@ -79,12 +79,12 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Lyriks",
-      des: "A music streaming and charts application developed using React and Tailwind CSS",
-      img: "/lyriks_thumbnail.PNG",
-      iconLists: ["/react.svg", "redux.svg", "ts.svg", "/tail.svg"],
-      link: "https://lyriks-phi.vercel.app/",
-      git: "https://github.com/s-sameer/lyriks"
+      title: "Portfolio",
+      des: "A personal portfolio website created using Next.js, TypeScript, and Tailwind CSS",
+      img: "/portfolio-3.PNG",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://ssameer.dev/",
+      git: "https://github.com/s-sameer/react-portfolio-v3"
     },
     {
       id: 4,
@@ -94,15 +94,6 @@ export const navItems = [
       iconLists: ["/react.svg", "/node.svg", "/firebase.svg"],
       link: "https://velvety-duckanoo-8dc08a.netlify.app/",
       git: "https://github.com/s-sameer/keeper-app"
-    },
-    {
-      id: 5,
-      title: "Boardspace",
-      des: "An admin dashboard panel created using React and JavaScript",
-      img: "/admin-db-v1.PNG",
-      iconLists: ["/react.svg", "/tail.svg"],
-      link: "https://lucent-yeot-4eb47e.netlify.app/",
-      git: "https://github.com/s-sameer/react-dashboard"
     },
   ];
 
@@ -115,7 +106,16 @@ export const navItems = [
       iconLists: [],
       link: "",
       git: ""
-    }
+    },
+    {
+      id: 3,
+      title: "Lyriks",
+      des: "A music streaming and charts application developed using React and Tailwind CSS",
+      img: "/lyriks_thumbnail.PNG",
+      iconLists: ["/react.svg", "redux.svg", "ts.svg", "/tail.svg"],
+      link: "https://lyriks-phi.vercel.app/",
+      git: "https://github.com/s-sameer/lyriks"
+    },
   ]
   
   export const workExperience = [

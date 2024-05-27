@@ -1,6 +1,7 @@
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './ui/MovingBorders'
+import MagicButton from './ui/MagicButton'
 
 const Experience = () => {
   return (
@@ -28,7 +29,14 @@ const Experience = () => {
                     </div>
                 </Button>
             ))}
-
+        </div>
+        <div className='flex justify-center items-center pt-16'>
+            <a href="https://drive.google.com/uc?export=download&id=16d1L187ZgMzFEe3TwRPcAPmBwRlh-s6R">
+                <MagicButton 
+                    title='Resume'
+                    otherClasses='md:w-40 '
+                />
+            </a>
         </div>
     </div>
   )
