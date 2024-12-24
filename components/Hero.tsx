@@ -26,7 +26,7 @@ const Hero = () => {
                     words='Transforming Your Ideas From Concept To Production'
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I&apos;m Sameer, a passionate Full-Stack Developer and AI Engineer.
+                    Hi, I&apos;m Sameer, a passionate Full-Stack Developer and Cloud Engineer.
                 </p>
                 <a href="#about">
                 <MagicButton title="See my work" icon={<FaLocationArrow/>} position='right'/>

@@ -48,7 +48,7 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Currently looking for a software co-op position for Fall 2024",
+      title: "Currently looking for full-time Software Engineering opportunities for 2025",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-1",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -121,6 +121,14 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
+      title: "Software Engineering Student",
+      company: "Nasdaq",
+      desc: "Developed a serverless expiry notification system to alert users of expiring queries using AWS Lambda, SES, and DynamoDB",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+    },
+    {
+      id: 2,
       title: "AI/Software Engineering Co-op",
       company: "Mission Control Space Services",
       desc: "Contributed to the development of a deep learning model for real-time fire event detection using Python and Pytorch",
@@ -128,7 +136,7 @@ export const navItems = [
       thumbnail: "/exp1.svg",
     },
     {
-      id: 2,
+      id: 3,
       title: "Full Stack Developer (Co-op)",
       company: "SiftMed",
       desc: "Implemented new features, developed robust APIs, and optimized application performance using React, Python, and AWS",
@@ -136,7 +144,7 @@ export const navItems = [
       thumbnail: "/exp2.svg",
     },
     {
-      id: 3,
+      id: 4,
       title: "Software Engineering Co-op",
       company: "Memorial University",
       desc: "Developed a data visualization application to extract insights from satellite data using React, Tailwind, and Rust",
@@ -144,7 +152,7 @@ export const navItems = [
       thumbnail: "/exp3.svg",
     },
     {
-      id: 4,
+      id: 5,
       title: "Software Developer Co-op",
       company: "C-CORE",
       desc: "Created several responsive landing pages for the company’s product line, using HTML, CSS, and JavaScript",
